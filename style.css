@@ -1,0 +1,175 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 175px 530px 115px;
+    column-gap: 20px;
+    margin-top: 18px;
+}
+
+.left, .right {
+    background-color: whitesmoke;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    text-align: center;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin-bottom: 8px;
+    color: blue;
+}
+
+#post {
+    font-size: 110%;
+    background-color: lightgoldenrodyellow;
+    color: blue;
+}
+
+#acct {
+    font-size: 90%;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: blue;
+}
+
+.calendar {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.tg  {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    color: blue;
+    border-color: silver;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    padding: 0;
+    word-break: normal;
+}
+
+.tg th {
+    border-color:silver;
+    border-style:solid;
+    border-width:1px;
+    font-weight: normal;
+    overflow:hidden;
+    padding: 0;
+    word-break:normal;
+}
+
+.tg .tg-ozmw {
+    background-color:#ffffff;
+    border-color:#c0c0c0;
+    color:#0000ff;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.tg .tg-agjc {
+    background-color: #ffffff;
+    border-color: #c0c0c0;
+    color: #0000ff;
+    text-align: center;
+    vertical-align: top;
+}
+
+.tg .tg-y8zw {
+    background-color:#cccccc;
+    border-color:#c0c0c0;
+    color: black;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-t9xg {
+    background-color: #fafad2;
+    border-color: #c0c0c0;
+    color: #0000ff;
+    text-align: center;
+    vertical-align: top;
+}
+
+.middle {
+    display: grid;
+    grid-template-rows: 45px 1fr;
+}
+
+.middle-header {
+    width: 530px;
+    background-color: whitesmoke;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    text-align: center;
+}
+
+.current-city, .counties {
+    display: inline;
+}
+
+.current-city {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: black;
+}
+
+.middle-content {
+    display: grid;
+    grid-template-columns: 200px 225px 155px;
+    color: blue;
+}
+
+.column1 {
+    display: grid;
+    grid-template-rows: 190px 215px 330px;
+    font-weight: bold;
+    text-align: center;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.column2 {
+    display: grid;
+    grid-template-rows: 215px 455px;
+    font-weight: bold;
+    text-align: center;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.column3 {
+    display: grid;
+    grid-template-rows: 600px 105px 28px;
+    font-weight: bold;
+    text-align: center;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.collapsible-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: blue;
+}
