@@ -140,6 +140,13 @@ header {
     color: blue;
 }
 
+h5 {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    background-color: whitesmoke;
+}
+
 .column1 {
     display: grid;
     grid-template-rows: 190px 215px 330px;
